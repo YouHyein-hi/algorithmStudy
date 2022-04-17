@@ -1,6 +1,6 @@
 /*
  * 2022.04.16.토
- * 2438번 별 찍기-4
+ * 2441번 별 찍기-4
  * */
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class no_2441 {
             for(int k = i; k < num; k++) {
                 System.out.print("*");
             }
-            System.out.println();
+            System.out.println("");
         }
     }
 }
