@@ -1,3 +1,7 @@
+/*
+ * 2022.04.23.토
+ * 2446번 별 찍기-9
+ * */
 import java.util.Scanner;
 
 public class no_2446 {
