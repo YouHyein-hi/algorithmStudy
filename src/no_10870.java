@@ -1,23 +1,24 @@
 /*
- * 2022.05.03.화
- * 10876번 팩토리얼
+ * 2022.05.04.수
+ * 10870번 피보나치 수
  * */
 import java.util.Scanner;
 
-public class no_10876 {
+public class no_10870 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
         int num = s.nextInt();  // 숫자 입력
-        int sum = factorial(num);
+        int sum = fibonacci(num);
 
         System.out.println(sum);
     }
 
-    public static int factorial(int num) {
-        if(num <= 1) return 1;
+    static int fibonacci(int num) {
+        if (num == 0)	return 0;
+        if (num == 1)	return 1;
 
-        int result = num * factorial(num - 1);
+        int result = fibonacci(num - 1) + fibonacci(num - 2);
 
         return result;
     }
