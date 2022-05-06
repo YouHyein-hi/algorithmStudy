@@ -1,3 +1,7 @@
+/*
+ * 2022.05.05.목
+ * 1110번
+ * */
 import java.util.Scanner;
 
 public class no_1110 {
