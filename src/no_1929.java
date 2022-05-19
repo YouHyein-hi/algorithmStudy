@@ -14,7 +14,7 @@ public class no_1929 {
         check[0] = true;
         check[1] = true;
 
-        // 2부터 시작해서 특정 수의 배수에 해당하는 수를 모두 지운다.
+        // M부터 시작해서 특정 수의 배수에 해당하는 수를 모두 지운다.
         // (지울 때 자기자신은 지우지 않고, 이미 지워진 수는 건너뛴다.)
         for(int i = 2; i <= N; i++){
             // 이미 지워진 수라면 건너뛰기
@@ -24,7 +24,7 @@ public class no_1929 {
                 check[j] = true;
         }
 
-        // 2부터 시작하여 남아있는 수를 모두 출력한다.
+        // M부터 시작하여 남아있는 수를 모두 출력한다.
         for(int i = M; i <= N; i++){
             if(check[i] == false) System.out.println(i);
         }
